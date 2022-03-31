@@ -104,7 +104,7 @@ def pregunta_06():
     ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 
     """
-    lista = print(tbl1['_c4'].sort_values().str.upper().unique())
+    lista = tbl1['_c4'].sort_values().str.upper().unique()
     
     return lista
 
